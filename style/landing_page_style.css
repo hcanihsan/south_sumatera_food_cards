@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} */
+
+/* Kodingan Bikinan Sendiri */
+.landing-page-body{
+    background-image: url("../img/landing_page_img.JPG");
+    background-size: contain;
+    min-height: 100vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+.lp-header{
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid #c3c3c3; */
+
+}
+
+.lp-center-content-text{
+    display: block;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #c3c3c3; */
+    margin: auto;
+    
+}
+
+.lp-footer{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #C7B7A3;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    min-height: 12vh;
+    
+}
+
+.lp-text-support{
+    color: #fff;
+}
+
+.lp-text-main{
+    font-size: 96px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.lp-footer-title{
+    color: #000000;
+}
+
+.lp-footer-copyright{
+    padding-top: 5px;
+    color: #000000;
+}
+.lp-button-sign-in{
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background-color: #B5C18E;
+    transition: 0.3s ease;
+}
+
+.lp-button-sign-in-text{
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px
+      
+}
+
+.lp-cc-button-start-game{
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    background-color: #C7B7A3;
+    transition: 0.3s ease;
+    height: 60px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lp-cc-button-start-game-text{
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right:30px;
+}
+/* Kodingan Bikinan Sendiri */
+.wrapper{
+    padding: 25px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
